@@ -9,6 +9,7 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:backgroundTint="@color/purple_200"
+        app:cardCornerRadius="10sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -1,5 +1,6 @@
 package com.rd.educraze
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         val startBtn = findViewById<Button>(R.id.Start)
         startBtn.setOnClickListener {
             Toast.makeText(this, "Let's Start", Toast.LENGTH_LONG).show()
+            val intent = Intent(this, HomeActivity::class.java)
+            startActivity(intent)
         }
     }
 }
