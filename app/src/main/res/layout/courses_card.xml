@@ -10,6 +10,7 @@
         android:layout_height="150dp"
         android:backgroundTint="@color/yellow_200"
         app:cardCornerRadius="10sp"
+        app:cardElevation="5dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -20,7 +21,7 @@
             android:layout_height="match_parent">
 
             <ImageView
-                android:id="@+id/imageView"
+                android:id="@+id/iv_course_image"
                 android:layout_width="match_parent"
                 android:layout_height="100dp"
                 android:src="@drawable/ic_launcher_foreground"
@@ -29,14 +30,18 @@
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
+                android:id="@+id/tv_course_name"
                 android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:text="Course"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold"
                 android:paddingHorizontal="10dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imageView" />
+                app:layout_constraintTop_toBottomOf="@+id/iv_course_image" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 
