@@ -35,5 +35,8 @@ class HomeActivity : AppCompatActivity() {
         courseList.add(Course(R.drawable.educraze_logo, "JavaScript"))
         courseList.add(Course(R.drawable.educraze_logo, "Java"))
         courseList.add(Course(R.drawable.educraze_logo, "Swift"))
+        courseList.add(Course(R.drawable.educraze_logo, "Ruby"))
+        courseList.add(Course(R.drawable.educraze_logo, "C++"))
+        courseList.add(Course(R.drawable.educraze_logo, "Rust"))
     }
 }
